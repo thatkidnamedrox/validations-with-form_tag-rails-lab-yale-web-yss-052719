@@ -9,5 +9,5 @@ class Post < ActiveRecord::Base
       errors.add(:category, "must be either fiction or non-fiction")
     end
   end
-  
+
 end
